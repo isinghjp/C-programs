@@ -1,0 +1,17 @@
+//Write a C progam which Print 1 to 10 Number Using goto Statement
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1;
+	clrscr();
+	count: 				//this is Label
+
+	printf("%d \n",i);
+	i++;
+	if(i<10)
+	{
+		goto count;		//this jumps to label "count"
+	}
+	getch();
+}
