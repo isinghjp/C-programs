@@ -1,0 +1,16 @@
+//Program to find gross salary.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int bs,da,ta;
+double gs;
+clrscr();
+printf("enter basic salary: ");
+scanf("%d",&bs);
+da=(10*bs)/100;
+ta=(12*bs)/100;
+gs=bs+da+ta;
+printf("gross salary %lf",gs);
+getch();
+}

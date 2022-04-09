@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ 
+int a=5; 
+float b;
+clrscr();
+printf("%d",sizeof(++a+b));
+printf("\n %d",a);
+getch();
+}

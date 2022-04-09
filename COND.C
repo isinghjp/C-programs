@@ -1,0 +1,12 @@
+//Program to show the use of conditional operator.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+printf("enter value for a & b: ");
+scanf("%d%d",&a,&b);
+(a>b)?printf("a is greater"):printf("b is greater");
+getch();
+}
