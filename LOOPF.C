@@ -1,0 +1,14 @@
+//Program to print first 10 natural numbers with for loop
+
+#include<stdio.h>
+#include<conio.h>
+void main( )
+{
+ int x;
+ clrscr();
+ for(x=1; x<=10; x++)
+ {
+   printf("%d\t",x);
+ }
+ getch();
+}
